@@ -20,9 +20,9 @@ object Cipher{
         return pt;        
     }
     def main(args: Array[String]): Unit = {
-        val text = "PROSECUTER";
+        val text = "ANT";
         val alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-        val shift = 5;
+        val shift = 2;
 
         val ct = encrypt(text,shift,alphabet);
         val pt = decrypt(ct,shift,alphabet);
